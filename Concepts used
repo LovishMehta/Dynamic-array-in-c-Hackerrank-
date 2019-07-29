@@ -1,0 +1,19 @@
+Concept of Dynamic memory allocation is used
+
+whenever you are using "pointer" for the purpose of "Array", keep in mind
+
+CASE I: FOR 1-D array
+
+For 1-D array, we use single pointer " *p ", which point to the first address of the array.
+Now for *p array ,we have to allocate memory. syntax: p = (int*)malloc(sizeof(int)).
+  p: points to the first location of the array.
+  
+CASE II: For 2-D array
+
+For 2-D array, we use double pointer " **P ", which points to the first row and column (0,0) of 2D array.
+Now for **p array ,  we have to allocate memory. SYNTAX p = (int**)malloc(sizeof(int*)) //allocate memory to array of arrays.
+                                                        p[i] = (int*)malloc(sizeof(int))// allocate memory to array.
+                                                        
+  LINKS:
+  1. https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/
+  2. https://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/

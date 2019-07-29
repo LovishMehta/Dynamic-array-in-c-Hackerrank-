@@ -1,4 +1,4 @@
-Concept of Dynamic memory allocation is used
+Concept of Dynamic Memory Allocation is used for the implementation of Dynamic Array in C code.
 
 whenever you are using "pointer" for the purpose of "Array", keep in mind
 
